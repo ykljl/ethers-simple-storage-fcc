@@ -1,0 +1,19 @@
+#在里面的文件不会被git管理,相当于黑名单,一些敏感信息,私钥,地址不想上传git等等(还不够安全,还需要加密)
+node_modules
+.env
+.encryptedKey.json
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
